@@ -28,7 +28,7 @@ public class Vehicle {
     public int getCurrentDriection() {
         return currentDriection;
     }
-
+    //Method for Steering
     public void steer(int direction){
         this.currentDriection += direction;
         System.out.println("Vehicle.steer(): Steering at "+currentDriection+" degrees.");
